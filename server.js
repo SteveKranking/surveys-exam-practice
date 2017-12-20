@@ -10,7 +10,7 @@ app.use(express.static(__dirname + '/public/dist'));
 app.use(bodyParser.json());
 app.use(morgan('short'))
 app.use(session({
-    secret: 'wouldntyouliketoknow',
+    secret: 'gopackgo',
     resave: false,
     saveUninitialized: true
 }))
